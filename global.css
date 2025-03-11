@@ -1,0 +1,48 @@
+
+
+:root {
+  --brand-color-light: rgba(96, 165, 250, 1);
+  --brand-color-dark: rgba(29, 78, 216, 1);
+  --bg-color: rgba(15, 23, 42, 1);
+  --stroke-color: rgba(30, 41, 59, 1);
+
+  --text-color-primary: rgba(241, 245, 249, 1);
+  --text-color-secondary: rgba(203, 213, 225, 1);
+
+  --font-family: "Archivo", sans-serif;
+  --font-family-2: "Archivo Black", sans-serif;
+
+  --text-lg: 800 24px/135% var(--font-family);
+  --text-lg-2: 800 24px/135% var(--font-family-2);
+
+  --text-md-800: 800 16px/140% var(--font-family);
+  --text-md-700: 700 16px/140% var(--font-family);
+
+  --heading3: 800 14px/140% var(--font-family);
+  --span: 600 14px/140% var(--font-family);
+  --paragraph: 400 14px/160% var(--font-family)
+
+
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+#bar2 a{
+  display: flex;
+  color: var(--text-color-secondary);
+  font: var(--span);
+  text-decoration: none;
+  justify-content: space-between;
+}
+
+section {
+  color: var(--text-color-primary);
+}
+
+#container {
+  max-width: 1280px;
+  margin: auto;
+}
+
